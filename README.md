@@ -1,6 +1,6 @@
 # MATLAB Regression Results Statistics and Plots
 
-The function [Make_Plots](Make_Plots.m) will calculate summary fit statistics and make charts to understand how a supervised learning regression model was able to predict target data. It takes in the predicted and actual outputs from a training and test set and returns a figure with the fit statistics and fit plots. An example is below
+The function [Make_Plots](Make_Plots.m) calculates summary fit statistics and creates charts to understand how well a supervised learning regression model was able to predict target data. It takes in the predicted and actual outputs from a training and test set and returns a figure with the fit statistics and fit plots. An example is below
 
 ![Sample_Results](/Images/Regression_Fit_Charts.png)
 
