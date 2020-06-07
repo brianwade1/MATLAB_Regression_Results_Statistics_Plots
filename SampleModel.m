@@ -5,7 +5,7 @@ clear; clc; close all
 % Set seed for reproducibility
 seed = rng(123);
 
-% Loda data
+% Load data
 input_file = 'Data/Test_data.csv';
 input = csvread(input_file,1,0);
 x = input(:,1:6); %input data
@@ -37,11 +37,11 @@ Q=size(x,1); % Get data size
 Q1=floor(Q*(1-test_perc)); 
 Q2=Q-Q1; % Remaining number of entries will be in test set
 
-% Randomly order the indicies of the full dataset
+% Randomly order the indices of the full dataset
 ind=randperm(Q);
 
-ind1_test=ind(1:Q1); % Take the first Q1 indicies for the train set 
-ind2_test=ind(Q1+(1:Q2)); % Remaining indicies for test set
+ind1_test=ind(1:Q1); % Take the first Q1 indices for the train set 
+ind2_test=ind(Q1+(1:Q2)); % Remaining indices for test set
 
 % Cast data into train and test sets
 x_train=x(ind1_test,:); 
