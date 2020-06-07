@@ -18,7 +18,7 @@ The function will calculate the root mean squared error (RMSE), coefficient of d
 
 ## Other Files
 
-This repo also has a sample script to make the sample output. This sample script, [SampleModel](SampleModel.m) load the [Test_Data.csv](Data/Test_Data.csv) file, divides the data into a training and test set, and creates a response surface function to estimate the response. Note that in the data, the first six columns are input features, and the seventh column is the target output feature.
+This repo also has a sample script called [SampleModel](SampleModel.m) that made the sample output plots above. The sample script loads the [Test_Data.csv](Data/Test_Data.csv) file, divides the data into a training and test set, and creates a response surface function to estimate the response. Note that in the data, the first six columns are input features, and the seventh column is the target output feature.
 
 ## MATLAB Version and Toolboxes
 
